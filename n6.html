@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+	<meta charset = "UTF-8">
+	<title>Задачa 1.6</title>
+	<link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type = "text/css" rel = "stylesheet" href = "css/materialize.css" media = "screen,projecion"/>
+</head>
+
+<body>
+	<style>
+	html, body
+	{
+		background-image: url(background-image.jpg);
+	}
+
+	.card-panel
+	{
+		width: 1200px;
+		margin: 15px auto;
+	}
+	</style>
+	
+	<header class = "header">
+	<nav>
+		<div class = "nav-wrapper red darken-2">
+			<div style = "margin-left: 15px"><a href = "localhost.html" class = "brand-logo left">Задачи</a></div>
+			<ul class = "right hide-on-med-and-down">
+				<li><a href = "n1.html" class = "waves-effect waves-ligth blue-grey btn">№1.1</a>
+				<li><a href = "n2.html" class = "waves-effect waves-ligth blue-grey btn">№1.2</a>
+				<li><a href = "n3.html" class = "waves-effect waves-ligth blue-grey btn">№1.3</a>
+				<li><a href = "n4.html" class = "waves-effect waves-ligth blue-grey btn">№1.4</a>
+				<li><a href = "n5.html" class = "waves-effect waves-ligth blue-grey btn">№1.5</a>
+				<li><a href = "n6.html" class = "waves-effect waves-ligth blue-grey btn">№1.6</a>
+			</ul>
+		</div>
+	</nav>
+	</header>
+
+	<div class = "card-panel center">
+		<p>Задача №1.6</p>В результате наблюдения за 45 образцами радиоэлектронного оборудования получены данные до первого отказа всех 45 образцов, сведенные в таблице. Требуется определить mе*.
+
+		<table class="centered">
+        	<tbody>
+        		<tr>
+            		<td><b>Δti, ч</b></td>
+            		<td>0-5</td>
+            		<td>5-10</td>
+            		<td>10-15</td>
+            		<td>15-20</td>
+            		<td>20-25</td>
+            		<td>25-30</td>
+            		<td>30-35</td>
+            		<td>35-40</td>
+            		<td>40-45</td>
+            		<td>45-50</td>
+            		<td>50-55</td>
+            		<td>55-60</td>
+            		<td>60-65</td>
+            		<td>65-70</td>
+            		<td>70-75</td>
+            		<td>75-80</td>
+        		</tr>
+
+        		<tr>
+            		<td><b>n(i)</b></td>
+            		<td>1</td>
+            		<td>5</td>
+            		<td>8</td>
+            		<td>2</td>
+            		<td>5</td>
+            		<td>6</td>
+            		<td>4</td>
+            		<td>3</td>
+            		<td>0</td>
+            		<td>1</td>
+            		<td>0</td>
+            		<td>0</td>
+            		<td>3</td>
+            		<td>3</td>
+            		<td>3</td>
+            		<td>1</td>
+        		</tr>
+       		</tbody>
+    	</table>
+
+		<p><button id = "n6-btn" onclick = "func()" class = "btn waves-effect waves-ligth red darken-2">Решение</button></p>
+
+	<div id = "n6"></div>
+	</div>
+
+	<script type = "text/javascript" src = "js/materialize.js"></script>
+	<script type = "text/javascript" src = "js/n6.js"></script>
+
+</body>
+</html>

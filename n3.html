@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+	<meta charset = "UTF-8">
+	<title>Задачa 1.3</title>
+	<link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type = "text/css" rel = "stylesheet" href = "css/materialize.css" media = "screen,projecion"/>
+</head>
+
+<body>
+	<style>
+	html, body
+	{
+		background-image: url(background-image.jpg);
+	}
+
+	.card-panel
+	{
+		width: 1200px;
+		margin: 15px auto;
+	}
+	</style>
+	
+	<header class = "header">
+	<nav>
+		<div class = "nav-wrapper red darken-2">
+			<div style = "margin-left: 15px"><a href = "localhost.html" class = "brand-logo left">Задачи</a></div>
+			<ul class = "right hide-on-med-and-down">
+				<li><a href = "n1.html" class = "waves-effect waves-ligth blue-grey btn">№1.1</a>
+				<li><a href = "n2.html" class = "waves-effect waves-ligth blue-grey btn">№1.2</a>
+				<li><a href = "n3.html" class = "waves-effect waves-ligth blue-grey btn">№1.3</a>
+				<li><a href = "n4.html" class = "waves-effect waves-ligth blue-grey btn">№1.4</a>
+				<li><a href = "n5.html" class = "waves-effect waves-ligth blue-grey btn">№1.5</a>
+				<li><a href = "n6.html" class = "waves-effect waves-ligth blue-grey btn">№1.6</a>
+			</ul>
+		</div>
+	</nav>
+	</header>
+
+	<div class = "card-panel center">
+		<p>Задача №1.3</p>На испытание поставлено N = 400 изделий. За время t = 3000 час отказало 200 изделий, т.е. n(t) = 400 - 200 = 200. За интервал времени (t, t+Δt) , где Δt = 100 час, отказало 100 изделий, т.е. Δn(t) = 100. Требуется определить Р*(3000), Р*(3100), f*(3000), λ*(3000).
+		<p><button id = "n3-btn" onclick = "func()" class = "btn waves-effect waves-ligth red darken-2">Решение</button></p>
+
+	<div id = "n3"></div>
+	</div>
+
+	<script type = "text/javascript" src = "js/materialize.js"></script>
+	<script type = "text/javascript" src = "js/n3.js"></script>
+
+</body>
+</html>
